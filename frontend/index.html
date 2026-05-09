@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+        <div class="logo">TravelGo</div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#booking">Book</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="overlay">
+            <h1>Escape To Pure Paradise ✈️</h1>
+
+            <p>Discover beautiful destinations around the world</p>
+
+            <a href="#booking" class="btn">Book Your Tour</a>
+        </div>
+
+    </section>
+
+    <!-- BOOKING SECTION -->
+
+    <section class="booking-section" id="booking">
+
+        <div class="booking-card">
+
+            <h2>Book Your Dream Vacation</h2>
+
+            <form id="bookingForm">
+
+                <input type="text" id="name" placeholder="Full Name" required>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <input type="text" id="destination" placeholder="Destination" required>
+
+                <input type="number" id="people" placeholder="People" required>
+
+                <input type="date" id="date" required>
+
+                <button type="submit">Book Tour</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- TOUR PACKAGES -->
+
+    <section class="packages" id="packages">
+
+        <h2>Popular Destinations</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+                <h3>Maldives</h3>
+                <p>Crystal clear beaches and luxury resorts.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+                <h3>Switzerland</h3>
+                <p>Snow mountains and breathtaking views.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+                <h3>Bali</h3>
+                <p>Relax in tropical paradise and nature.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BOOKINGS TABLE -->
+
+    <section>
+
+        <h2 class="table-title">All Bookings</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Destination</th>
+                    <th>People</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+
+            <tbody id="bookingTable">
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
