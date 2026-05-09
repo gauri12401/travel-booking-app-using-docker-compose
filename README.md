@@ -329,27 +329,6 @@ Learned:
 
 ---
 
-## Frontend Development
-
-Learned:
-
-- Responsive UI design
-- CSS Grid
-- Hero sections
-- Professional layouts
-
----
-
-## Backend Development
-
-Learned:
-
-- REST APIs
-- Express server setup
-- JSON responses
-- API routing
-
----
 
 # Future Improvements
 
@@ -369,7 +348,6 @@ Learned:
 
 This project provided hands-on experience with:
 
-- Full-stack development
 - Docker containerization
 - Docker Compose orchestration
 - AWS cloud deployment
